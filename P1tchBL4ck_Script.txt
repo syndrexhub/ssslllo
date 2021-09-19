@@ -1,0 +1,82 @@
+FOLLOW ME FOR MORE UPDATES!
+
+Facebook Page:
+PitchBLack
+https://www.facebook.com/P1tchBL4ckPH
+
+Youtube Channel:
+PitchBLack
+https://www.youtube.com/channel/UCw-wLKNabPvETfb0jCGQdXg
+
+Telegram GroupChat Channel:
+https://t.me/p1tchbl4ck
+
+
+SCRIPT FOR OpenVPN
+
+
+http-proxy [PROXY] [PORT]
+http-proxy-retry
+http-proxy-timeout 5
+http-proxy-option CUSTOM-HEADER CONNECT HTTP/1.1 
+http-proxy-option CUSTOM-HEADER Host [PAYLOAD]
+http-proxy-option CUSTOM-HEADER X-Online-Host [PAYLOAD]
+http-proxy-option CUSTOM-HEADER X-Forwarded-For [PAYLOAD]
+http-proxy-option CUSTOM-HEADER Connection: X-Forward-Host 
+http-proxy-option CUSTOM-HEADER Connection: X-Online-Host 
+http-proxy-option CUSTOM-HEADER Connection: Keep-Alive 
+http-proxy-option CUSTOM-HEADER Connection: Dual-Connection
+
+
+setenv CLIENT_CERT 0
+<auth-user-pass>
+username
+password
+</auth-user-pass>
+
+
+
+
+
+PAYLOADS:
+
+GLOBE & TM (NEED I-DNS/PWEDE DIN HINDI)
+ clients3.google.com
+ www.googletagservices.com
+ edge.quantserve.com
+ googleapis.google-analytics.com
+
+
+SUN (NEED I-DNS)
+ e9413.akamaiedge.net
+ www.viber.com.edgekey.net
+ media.whatsapp.com
+ mac.weixin.qq.com
+
+
+SMART/TNT (GIGA50 UP)
+ www.viber.com.edgekey.net
+
+
+GIGASTORIES (NEED I-DNS)
+ abs.twitter.com
+ api.twitter.com
+ tweetdeck.twitter.com
+
+
+GIGAMES, GAMETIME & ML10 (NEED I-DNS/PWEDE DIN HINDI)
+ face.yuanzhanapp.com
+ web.mobilelegends.com
+ activity.mobilelegends.com
+ cdn.ml.youngjoygame.com
+
+http-proxy  172.107.159.202 8080
+http-proxy-option CUSTOM-HEADER Host m.google.com
+http-proxy-option CUSTOM-HEADER X-Online-Host m.google.com
+sndbuf 100000
+rcvbuf 100000
+dhcp-option DNS 8.8.8.8
+<auth-user-pass>
+username
+pass
+</auth-user-pass>
